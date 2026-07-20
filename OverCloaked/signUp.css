@@ -1,0 +1,174 @@
+
+    body{
+     background-color: rgb(18, 18, 33);
+
+
+    }
+     
+    .sign-up{
+    
+        display: flex;
+        flex-direction: column;
+     color: #ffffff;
+    justify-content: center; 
+   align-items: center;
+    }
+    nav h2{
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-size: 40px;
+        text-align: center;
+        color: #ffffff;
+     
+    }
+    
+   h4 a{
+    color: #ffffff;
+   }
+
+   h4 a:hover{
+color: rgb(49, 43, 43);
+}
+   
+
+
+
+/* 
+games */
+
+
+
+.game-container{
+  
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 25px;
+justify-content: left;
+}
+
+.game-cards{
+    position: relative;
+      top: 10px;
+
+    background-color: rgb(24, 23, 33);
+    height: 200px;
+    width: 150px;
+    border-radius: 40px; 
+}
+
+.game-cards img{  
+width: 100%;
+height: 70%;
+border-top-left-radius: 25px ;
+border-top-right-radius: 25px;
+}
+
+.game-cards h3{
+color: rgb(147, 161, 174);
+font-size: 14px;
+text-align: center;
+}
+
+
+
+
+/*
+log in
+
+*/
+.log-in{
+    color: #ffffff;
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*
+home
+*/
+
+.home-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    color: rgb(233, 242, 250);
+    text-shadow: 0 0 100px rgba(251, 251, 251, 0.431);
+}
+
+
+.home-html button{
+float: right;
+ margin: 5px;
+background-color: #000000;
+width:80px ;
+height: 30px;
+padding: 5px;
+border-radius: 10px;
+box-shadow: 0 0 #ffffff;
+}
+
+
+
+
+.center-list   {
+    display: flex;
+    justify-content:center;
+    top: 10px;
+    gap:29px ;
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 0 0  rgb(156, 156, 236);
+}
+
+.no-bullet{
+    list-style-type: none;
+}
+
+
+
+    
+   
+      
+
+
+
+
+.bottom-list{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+a{
+
+    color: rgb(193, 199, 224);
+      text-decoration: none;
+}
+
+
+a:hover{
+
+    color: #3d7b98;
+}
+
+nav img{
+
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+height: 40px;
+width: 40px;
+background-color: #ffffff;
+
+
+
+}
+
+
+
+
+
